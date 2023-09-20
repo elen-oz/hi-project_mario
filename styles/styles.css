@@ -100,16 +100,13 @@ header {
 }
 
 .main-title {
-  font-size: 3.5rem;
+  /* font-size: 3.5rem; */
   text-transform: uppercase;
 }
 
 .text--multi-color {
-  padding: 0 15px;
   display: inline-block;
   margin: 20px 0 25px;
-
-  font-weight: 900;
   text-transform: uppercase;
 }
 
@@ -173,4 +170,20 @@ header {
   box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.69);
 
   transform: translateY(4px);
+}
+
+@media (max-width: 340px) {
+  .wrapper {
+    max-width: 95%;
+    padding: 0 2%;
+  }
+
+  .header-nav {
+    font-size: 0.8rem;
+  }
+
+  .button-play {
+    width: 80%;
+    font-size: 1.5rem;
+  }
 }
