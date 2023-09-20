@@ -105,56 +105,6 @@ header {
   margin-bottom: 3rem;
 }
 
-.main-title {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-}
-
-.text--multi-color {
-  display: inline-block;
-  text-transform: uppercase;
-}
-
-.text--multi-color span:nth-child(10n + 1) {
-  color: var(--blue);
-}
-
-.text--multi-color span:nth-child(10n + 2) {
-  color: var(--yellow);
-}
-
-.text--multi-color span:nth-child(10n + 3) {
-  color: var(--red);
-}
-
-.text--multi-color span:nth-child(10n + 4) {
-  color: var(--green-dark);
-}
-
-.text--multi-color span:nth-child(10n + 5) {
-  color: var(--yellow);
-}
-
-.text--multi-color span:nth-child(10n + 6) {
-  color: var(--blue);
-}
-
-.text--multi-color span:nth-child(10n + 7) {
-  color: var(--red);
-}
-
-.text--multi-color span:nth-child(10n + 8) {
-  color: var(--green-dark);
-}
-
-.text--multi-color span:nth-child(10n + 9) {
-  color: var(--yellow);
-}
-
-.text--multi-color span:nth-child(10n + 10) {
-  color: var(--red);
-}
-
 .button-play {
   margin: 3rem auto 0;
   font-size: 2rem;
