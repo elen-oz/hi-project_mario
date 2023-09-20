@@ -163,6 +163,18 @@ p.two-columns {
   height: 315px;
 }
 
+.footer-text {
+  position: relative;
+}
+
+.p-egg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  border-radius: 100px;
+}
+
 /* breakpoint-xxl: 2560px; */
 /* breakpoint-laptop-l: 1440px; */
 /* breakpoint-laptop: 1170px; */
