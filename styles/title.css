@@ -1,11 +1,9 @@
 .main-title {
-  font-size: 3.5rem;
-  text-transform: uppercase;
+  font-size: 5rem;
 }
 
 .text--multi-color {
   display: inline-block;
-  text-transform: uppercase;
 }
 
 .text--multi-color span:nth-child(10n + 1) {
