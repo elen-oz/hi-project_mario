@@ -37,8 +37,12 @@
 }
 
 * {
-  font-family: 'Visitor';
+  font-family: 'Visitor', 'VT323', monospace;
   /* font-family: 'VT323', monospace; */
+}
+
+html {
+  width: 100%;
 }
 
 a {
@@ -50,6 +54,7 @@ a:hover {
 }
 
 body {
+  width: 100%;
   background: url('../img/bg1.jpg');
   background-position: bottom;
   background-size: contain;
@@ -63,6 +68,7 @@ body {
 }
 
 header {
+  width: 100%;
   height: fit-content;
   font-size: 1.5rem;
   background-color: #6610f2;
