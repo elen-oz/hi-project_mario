@@ -9,10 +9,10 @@
 }
 
 :root {
-  --breakpoint-lg: 992px;
-  --breakpoint-md: 768px;
-  --breakpoint-sm: 576px;
-  --breakpoint-xl: 1200px;
+  --breakpoint-xl: 1170px;
+  --breakpoint-lg: 970px;
+  --breakpoint-md: 750px;
+  --breakpoint-sm: 550px;
   --breakpoint-xs: 0;
   --blue: #007bff;
   --cyan: #17a2b8;
