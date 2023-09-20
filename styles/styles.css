@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Visitor', monospace;
+  font-family: 'Visitor';
   src: url(../fonts/visitor1.ttf);
 }
 
 @font-face {
-  font-family: 'Visitor-small', monospace;
+  font-family: 'Visitor-small';
   src: url(../fonts/visitor2.ttf);
 }
 
