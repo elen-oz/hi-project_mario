@@ -211,6 +211,10 @@ a .button-play {
   background-color: rgba(255, 0, 0, 0.8);
 }
 
+.subtitle-third {
+  background-color: rgba(0, 255, 34, 0.8);
+}
+
 .text {
   padding: 0 10px;
   font-family: 'VT323', monospace;
