@@ -93,30 +93,12 @@ header {
   padding: 0 2%;
 }
 
-.header-nav {
-  padding: 2rem;
-  margin: 0;
+.hero-section {
+  height: 85vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-}
-
-.header-nav li {
-  list-style-type: none;
-}
-
-.header-nav li a {
-  color: inherit;
-}
-
-.header-nav li a:hover {
-  transform: translateY(-4px);
-  color: var(--yellow);
-}
-
-.hero-section {
-  height: 100vh;
 }
 
 .section {
@@ -130,7 +112,6 @@ header {
 
 .text--multi-color {
   display: inline-block;
-  margin: 20px 0 25px;
   text-transform: uppercase;
 }
 
@@ -175,7 +156,7 @@ header {
 }
 
 .button-play {
-  margin: 0 auto;
+  margin: 3rem auto 0;
   font-size: 2rem;
   padding: 1rem;
   width: 15rem;

@@ -1,0 +1,21 @@
+.header-nav {
+  padding: 2rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-nav li {
+  list-style-type: none;
+}
+
+.header-nav li a {
+  color: inherit;
+}
+
+.header-nav li a:hover {
+  transform: translateY(-4px);
+  color: var(--yellow);
+}
