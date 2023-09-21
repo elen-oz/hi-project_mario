@@ -1,7 +1,7 @@
 # hi-project_mario
 
-[_See Live_](https://elen-oz.github.io/hi-project_mario/)
+<!-- [_See Live_](https://elen-oz.github.io/hi-project_mario/)
 
-if not working ==>
+if not working ==> -->
 
-[See Live Also on Netlify](https://serene-bombolone-46fa8a.netlify.app/)
+[See Live on Netlify](https://serene-bombolone-46fa8a.netlify.app/)
