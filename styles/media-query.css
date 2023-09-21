@@ -1,0 +1,101 @@
+/* breakpoint-xxl: 2560px; */
+/* breakpoint-laptop-l: 1440px; */
+/* breakpoint-laptop: 1170px; */
+
+@media (max-height: 1050px) {
+  body {
+    background-size: cover;
+  }
+}
+
+/* breakpoint-tablet: 768px */
+@media (max-width: 768px) {
+  .video {
+    width: 400px;
+    height: 225px;
+  }
+  p.two-columns {
+    font-size: 1.5rem;
+    column-count: 1;
+  }
+  .float-left {
+    width: 8rem;
+    margin-right: 10px;
+  }
+
+  .float-right {
+    width: 8rem;
+    margin-left: 10px;
+  }
+}
+
+/* breakpoint-tablet-s: 610px */
+@media (max-width: 610px) {
+  .main-title {
+    font-size: 4rem;
+  }
+  .video {
+    display: none;
+  }
+}
+
+/* breakpoint-mobile-l: 425px */
+@media (max-width: 425px) {
+  .container {
+    max-width: 95%;
+    padding: 0 2%;
+  }
+  .main-title {
+    font-size: 3rem;
+  }
+  .button-play {
+    padding: 0.8rem;
+    width: 10rem;
+    font-size: 1.2rem;
+  }
+  .float-left {
+    width: 6rem;
+    margin-right: 6px;
+  }
+  .float-right {
+    width: 6rem;
+    margin-left: 6px;
+  }
+}
+
+/* breakpoint-mobile-m: 375px */
+@media (max-width: 375px) {
+  .content {
+    max-width: 95%;
+    padding: 0 2%;
+  }
+  .header-nav {
+    font-size: 1.3rem;
+  }
+  .main-title {
+    font-size: 2.5rem;
+  }
+  .button-play {
+    font-size: 1.3rem;
+    padding: 0.7rem;
+  }
+  p.two-columns {
+    font-size: 1.1rem;
+  }
+  .image {
+    display: none;
+  }
+  .float-left {
+    display: none;
+  }
+  .float-right {
+    display: none;
+  }
+}
+
+/* breakpoint-mobile-s: 320px */
+@media (max-width: 320px) {
+  .button-play {
+    font-size: 1rem;
+  }
+}
