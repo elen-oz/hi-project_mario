@@ -40,7 +40,7 @@ html {
 
 body {
   width: 100%;
-  background: url('../img/bg1.jpg');
+  background: url('../img/bg11.jpeg');
   background-position: bottom;
   background-size: contain;
   background-attachment: fixed;
@@ -75,7 +75,7 @@ body {
 .hero-section {
   position: relative;
   top: -5rem;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
