@@ -170,9 +170,14 @@ p.two-columns {
 .p-egg {
   position: absolute;
   bottom: 0;
-  right: 0;
-
+  left: 0;
   border-radius: 100px;
+}
+
+.bg-audio {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 /* breakpoint-xxl: 2560px; */
