@@ -1,8 +1,8 @@
 ## Hyper Island: The Fundamentals Week
 
-## 2st Project
+## 2nd Project
 
-[See Live on Netlify](https://serene-bombolone-46fa8a.netlify.app/)
+[See Live HERE](https://serene-bombolone-46fa8a.netlify.app/)
 
 ---
 
