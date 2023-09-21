@@ -191,7 +191,7 @@ p.one-column {
   left: 0;
   width: 80px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  border: 3px dotted var(--gray-dark);
+  border: 3px dotted var(--red);
   display: inline-block;
   overflow: hidden;
 }
