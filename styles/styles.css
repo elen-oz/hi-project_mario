@@ -197,3 +197,7 @@ p.one-column {
   bottom: 0;
   right: 0;
 }
+
+.cursor-mario {
+  cursor: url('/img/cursor/mario-cursor32x32.cur'), auto;
+}
