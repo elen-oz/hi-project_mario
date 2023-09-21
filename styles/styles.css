@@ -191,7 +191,7 @@ p.one-column {
 .p-egg {
   width: 100px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  border: 3px dotted var(--yellow);
+  border: 7px dotted var(--yellow);
   display: inline-block;
   overflow: hidden;
 }
