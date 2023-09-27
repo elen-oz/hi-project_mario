@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Visitor';
+  src: url(../fonts/visitor1.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  --breakpoint-xxl: 2560px;
+  --breakpoint-laptop-l: 1440px;
+  --breakpoint-laptop: 1170px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-tablet-s: 610px;
+  --breakpoint-mobile-l: 425px;
+  --breakpoint-mobile-m: 375px;
+  --breakpoint-mobile-s: 320px;
+  --blue: #007bff;
+  --cyan: #17a2b8;
+  --gray-dark: #343a40;
+  --gray: #6c757d;
+  --secondary: #6c757d;
+  --green: #28a745;
+  --green-dark: #208c39;
+  --indigo: #6610f2;
+  --info: #17a2b8;
+  --light: #f8f9fa;
+  --orange: #fd7e14;
+  --pink: #e83e8c;
+  --primary: #007bff;
+  --purple: #6f42c1;
+  --red: #dc3545;
+  --success: #28a745;
+  --teal: #20c997;
+  --white: #fff;
+  --yellow: #ffc107;
+  --black: #000;
+}
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background: url('../img/bg11.jpeg');
+  background-position: bottom;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}

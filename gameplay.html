@@ -1,210 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gameplay - Super Mario</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-  <title>Gameplay - Super Mario</title>
-  <link
-    rel="icon"
-    href="./favicon.ico"
-    type="image/x-icon"
-  />
-  <link
-    rel="preconnect"
-    href="https://fonts.googleapis.com"
-  >
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
-  <link
-    href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
-    rel="stylesheet"
-  >
-  <link
-    rel="stylesheet"
-    href="/styles/bootstrap-reboot.css"
-  >
-  <link
-    rel="stylesheet"
-    href="/styles/styles.css"
-  >
-  <link
-    rel="stylesheet"
-    href="/styles/header.css"
-  >
-  <link
-    rel="stylesheet"
-    href="/styles/title.css"
-  >
-  <link
-    rel="stylesheet"
-    href="/styles/footer.css"
-  >
-  <link
-    rel="stylesheet"
-    href="/styles/media-query.css"
-  >
-</head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul class="header-nav">
+            <li><a href="/index.html">Home</a></li>
+            <li>&mdash;</li>
+            <li><a href="/gameplay.html">Gameplay</a></li>
+            <li>&mdash;</li>
+            <li><a href="/history.html">History</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+        <div class="container">
+          <section class="section">
+            <h1 class="main-title text--multi-color cursor-mario">
+              <span>g</span><span>a</span><span>m</span><span>e</span
+              ><span>p</span><span>l</span><span>a</span><span>y</span>
+            </h1>
+            <div>
+              <video class="video" controls autoplay>
+                <source src="/video/video-mario.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
 
-<body>
-  <div class="wrapper">
-    <header>
-      <nav>
-        <ul class="header-nav">
-          <li><a href="/index.html">Home</a></li>
-          <li>&mdash;</li>
-          <li><a href="/gameplay.html">Gameplay</a></li>
-          <li>&mdash;</li>
-          <li><a href="/history.html">History</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="main">
-      <div class="container">
-        <section class="section">
-          <h1 class="main-title text--multi-color cursor-mario">
-            <span>g</span><span>a</span><span>m</span><span>e</span><span>p</span><span>l</span><span>a</span><span>y</span>
-          </h1>
-          <div>
-            <video
-              class="video"
-              controls
-              autoplay
-            >
-              <source
-                src="/video/video-mario.mp4"
-                type="video/mp4"
-              >
-              Your browser does not support the video tag.
-            </video>
-
-          </div>
-
-
-          <p class="text two-columns">
-            When playing, the player is assuming the role of Mario and has to go through the Mushroom Kingdom. The
-            player has to survive the evil forces of the game&#8217;s villain, Bowser, and rescue Princess Toadstool. To
-            win
-            the game, Mario has to <u>reach the flag pole</u> at the end of each level.
-            <br>
-            <img
-              src="/img/gifs/giphy9.webp"
-              alt=""
-              class="image float-left"
-            >
-            There are <u>coins</u> scattered throughout the game which need to be collected. There are also special
-            <u>bricks with
-              question marks</u> that reveal more coins and other special items once hit. It&#8217;s a must to hit other
-            bricks if
-            there&#8217;s enough time as they might contain rare items or coins.
-            <br>
-            <img
-              src="/img/gifs/giphy7.gif"
-              alt=""
-              class="image float-right"
-              style="margin-top: 10px;"
-            >
-            <u>Eating a mushroom</u>
-            <img
-              src='/img/supermushroom.png'
-              alt=""
-              width="
+            <p class="text two-columns">
+              When playing, the player is assuming the role of Mario and has to
+              go through the Mushroom Kingdom. The player has to survive the
+              evil forces of the game&#8217;s villain, Bowser, and rescue
+              Princess Toadstool. To win the game, Mario has to
+              <u>reach the flag pole</u> at the end of each level.
+              <br />
+              <img
+                src="/img/gifs/giphy9.webp"
+                alt=""
+                class="image float-left"
+              />
+              There are <u>coins</u> scattered throughout the game which need to
+              be collected. There are also special
+              <u>bricks with question marks</u> that reveal more coins and other
+              special items once hit. It&#8217;s a must to hit other bricks if
+              there&#8217;s enough time as they might contain rare items or
+              coins.
+              <br />
+              <img
+                src="/img/gifs/giphy7.gif"
+                alt=""
+                class="image float-right"
+                style="margin-top: 10px"
+              />
+              <u>Eating a mushroom</u>
+              <img
+                src="/img/supermushroom.png"
+                alt=""
+                width="
               25rem"
-            >
-            transforms regular Mario <img
-              src="/img/mini-mario.png"
-              alt=""
-              width="25rem"
-            > into Super Mario <img
-              src="/img/supermario.png"
-              alt=""
-              width="25rem"
-            >, which means he grows
-            double in size and gets the ability to break bricks above him. Careful though as when he gets hit in this
-            mode, he reverts to his original self, but he won&#8217;t die.
-            <br>
-            <u>Eating a Fire Flower</u> <img
-              src="/img/fireflower.png"
-              alt=""
-              width="25rem"
-            >turns Mario into Fire Mario <img
-              src="/img/firemario.png"
-              alt=""
-              width="25rem"
-            >and when in this form he can throw
-            bouncing fireballs from his hands. Touching a bouncing Super Star (also a power-up opportunity) turns him
-            into Star Mario.
-          </p>
+              />
+              transforms regular Mario
+              <img src="/img/mini-mario.png" alt="" width="25rem" /> into Super
+              Mario <img src="/img/supermario.png" alt="" width="25rem" />,
+              which means he grows double in size and gets the ability to break
+              bricks above him. Careful though as when he gets hit in this mode,
+              he reverts to his original self, but he won&#8217;t die.
+              <br />
+              <u>Eating a Fire Flower</u>
+              <img src="/img/fireflower.png" alt="" width="25rem" />turns Mario
+              into Fire Mario
+              <img src="/img/firemario.png" alt="" width="25rem" />and when in
+              this form he can throw bouncing fireballs from his hands. Touching
+              a bouncing Super Star (also a power-up opportunity) turns him into
+              Star Mario.
+            </p>
+          </section>
 
-        </section>
+          <section class="section">
+            <h2 class="subtitle subtitle-second">Star Mario</h2>
+            <p class="text two-columns">
+              In the Star Mario form, there&#8217;s almost nothing that can harm
+              him and he can also kill enemies with just one touch. This
+              superpower doesn&#8217;t last very long so use it quickly. Players
+              start with a specific number of lives that are lost every time
+              damage is taken or whenever Mario runs out of time or falls in a
+              bottomless pit.
+            </p>
+          </section>
 
-        <section class="section">
-          <h2 class="subtitle subtitle-second">Star Mario</h2>
-          <p class="text two-columns">
-            In the Star Mario form, there&#8217;s almost nothing that can harm him and he can also kill enemies with
-            just
-            one
-            touch. This superpower doesn&#8217;t last very long so use it quickly. Players start with a specific number
-            of
-            lives that are lost every time damage is taken or whenever Mario runs out of time or falls in a bottomless
-            pit.
-          </p>
-        </section>
-
-        <section class="section">
-          <h2 class="subtitle subtitle-third">The Battle</h2>
-          <p class="text two-columns">
-            Jumping on enemies is often the only way to defeat and enemies react differently. <u>Koopas</u> are
-            turtle-like
-            creatures and they will retract in their shells. <u>Goombas</u> will flatten and get defeated while Buzzy
-            Beetles
-            will turn into shells.
-            <br>
-            You can shoot fire at most enemies and get coins as a reward. The game has different worlds and the final
-            stage of each one always takes place in a castle where Mario is supposed to fight <u>Bowser</u> above a
-            suspension
-            bridge.
-            <br>
-            <img
-              src="/img/gifs/giphy4.gif"
-              alt=""
-              class="image float-right"
-            >
-            <em>
-              Remember to look for shortcuts as doing so can significantly shorten your game time. It&#8217;s a must to
-              run
-              whenever possible because there is a time limit and the faster you get through, the better score
-              you&#8217;ll
-              have.</em>
-
-          </p>
-
-        </section>
-
-
+          <section class="section">
+            <h2 class="subtitle subtitle-third">The Battle</h2>
+            <p class="text two-columns">
+              Jumping on enemies is often the only way to defeat and enemies
+              react differently. <u>Koopas</u> are turtle-like creatures and
+              they will retract in their shells. <u>Goombas</u> will flatten and
+              get defeated while Buzzy Beetles will turn into shells.
+              <br />
+              You can shoot fire at most enemies and get coins as a reward. The
+              game has different worlds and the final stage of each one always
+              takes place in a castle where Mario is supposed to fight
+              <u>Bowser</u> above a suspension bridge.
+              <br />
+              <img
+                src="/img/gifs/giphy4.gif"
+                alt=""
+                class="image float-right"
+              />
+              <em>
+                Remember to look for shortcuts as doing so can significantly
+                shorten your game time. It&#8217;s a must to run whenever
+                possible because there is a time limit and the faster you get
+                through, the better score you&#8217;ll have.</em
+              >
+            </p>
+          </section>
+        </div>
       </div>
+      <footer class="footer">
+        &mdash;
+        <a href="https://github.com/elen-oz" target="_blank" rel="nofollow"
+          >elen-oz</a
+        >
+        &mdash; &copy; 2023 &mdash;
+        <a
+          href="https://github.com/elen-oz/hi-project_mario"
+          target="_blank"
+          rel="nofollow"
+          >this project on GitHub</a
+        >
+        &mdash;
+        <div class="footer-text">
+          Information about the game and the source code are taken from open
+          sources.
+        </div>
+      </footer>
     </div>
-    <footer class="footer">
-      &mdash; <a
-        href="https://github.com/elen-oz"
-        target="_blank"
-        rel="nofollow"
-      >elen-oz</a> &mdash; &copy; 2023 &mdash;
-      <a
-        href="https://github.com/elen-oz/hi-project_mario"
-        target="_blank"
-        rel="nofollow"
-      >this project on GitHub</a> &mdash;
-      <div class="footer-text">
-        Information about the game and the source code are taken from open sources. </div>
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>

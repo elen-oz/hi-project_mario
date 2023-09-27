@@ -1,0 +1,21 @@
+@import './global.css';
+
+.wrapper {
+  font-family: 'Visitor', 'VT323', monospace;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 2%;
+}
