@@ -1,14 +1,13 @@
-header {
+.site-header {
   z-index: 10;
   width: 100%;
-  /* height: 6rem; */
   height: fit-content;
   font-size: 1.5rem;
   background-color: var(--indigo);
   border: 4px solid var(--black);
 }
 
-.header-nav {
+.site-nav_menu {
   padding: 1.5rem 0;
   margin: 0;
   display: flex;
@@ -17,15 +16,14 @@ header {
   gap: 0.5rem;
 }
 
-.header-nav li {
+.site-nav_menu li {
   list-style-type: none;
 }
 
-.header-nav li a {
+.site-nav__link {
   color: inherit;
 }
-
-.header-nav li a:hover {
+.site-nav__link:hover {
   transform: translateY(-4px);
   color: var(--yellow);
 }
