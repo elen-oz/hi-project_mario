@@ -29,3 +29,7 @@ header {
   transform: translateY(-4px);
   color: var(--yellow);
 }
+
+/* li:not(:last-child):after {
+  &mdash;
+} */
