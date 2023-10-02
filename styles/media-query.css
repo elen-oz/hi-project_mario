@@ -1,4 +1,3 @@
-/* @import './global.css'; */
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* breakpoint-xxl: 2560px; */
@@ -13,6 +12,13 @@
 
 /* breakpoint-tablet: 768px */
 @media (max-width: 768px) {
+  body {
+    background: none;
+    background-color: #6b8bfb;
+  }
+  .running-mario {
+    display: none;
+  }
   .video {
     width: 400px;
     height: 225px;

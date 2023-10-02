@@ -6,14 +6,6 @@
 }
 
 :root {
-  --breakpoint-xxl: 2560px;
-  --breakpoint-laptop-l: 1440px;
-  --breakpoint-laptop: 1170px;
-  --breakpoint-tablet: 768px;
-  --breakpoint-tablet-s: 610px;
-  --breakpoint-mobile-l: 425px;
-  --breakpoint-mobile-m: 375px;
-  --breakpoint-mobile-s: 320px;
   --blue: #007bff;
   --cyan: #17a2b8;
   --gray-dark: #343a40;
@@ -26,7 +18,7 @@
   --light: #f8f9fa;
   --orange: #fd7e14;
   --pink: #e83e8c;
-  --primary: #007bff;
+  --primary: #6b8bfb;
   --purple: #6f42c1;
   --red: #dc3545;
   --success: #28a745;
