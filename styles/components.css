@@ -40,6 +40,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  overflow: hidden;
 }
 
 .section {
@@ -119,6 +120,21 @@ a .button-play {
 
   transform: translateY(4px);
 }
+
+@keyframes runningMario {
+  from {
+    transform: translateX(-400%);
+  }
+
+  to {
+    transform: translateX(400%);
+  }
+}
+
+.running-mario {
+  /* position: absolute; */
+  /* bottom: 80px; */
+  animation: runningMario 5s linear infinite;
 
 .section__title {
   color: var(--white);
