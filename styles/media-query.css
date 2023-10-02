@@ -8,10 +8,6 @@
   body {
     background-size: cover;
   }
-}
-
-/* breakpoint-tablet: 768px */
-@media (max-width: 768px) {
   body {
     background: none;
     background-color: #6b8bfb;
@@ -19,6 +15,10 @@
   .running-mario {
     display: none;
   }
+}
+
+/* breakpoint-tablet: 768px */
+@media (max-width: 768px) {
   .video {
     width: 400px;
     height: 225px;
