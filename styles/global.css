@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 @font-face {
   font-family: 'Visitor';
   src: url(../fonts/visitor1.ttf);
 }
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
   --breakpoint-xxl: 2560px;
