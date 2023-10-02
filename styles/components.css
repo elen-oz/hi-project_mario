@@ -44,7 +44,6 @@
 }
 
 .section {
-  /* z-index: 100; */
   margin-bottom: 3rem;
 }
 
@@ -136,7 +135,6 @@ a .button-play {
   width: 9rem;
   z-index: -10;
   position: fixed;
-  /* bottom: 75px; */
   bottom: 4.2rem;
   animation: runningMario 5s linear infinite;
 }
