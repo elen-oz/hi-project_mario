@@ -132,12 +132,8 @@ a.p-egg-link .running-mario {
   z-index: 10;
   position: fixed;
   bottom: 4.7rem;
-  animation: runningMario 5s linear infinite;
+  animation: runningMario 10s linear infinite;
 }
-
-/* .p-egg-link {
-  z-index: 10;
-} */
 
 .section__title {
   color: var(--white);
@@ -220,13 +216,6 @@ p.one-column {
 .egg-container {
   position: relative;
 }
-/* .p-egg {
-  width: 100px;
-  border-radius: 40% 100% 80%;
-  border: 7px dotted var(--yellow);
-  display: inline-block;
-  overflow: hidden;
-} */
 
 .egg-tooltip {
   position: absolute;
