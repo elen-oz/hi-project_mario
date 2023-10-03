@@ -255,3 +255,9 @@ p.two-columns {
 .site-footer__desktop-text {
   display: none;
 }
+
+/* ============== */
+
+.accordion__summary {
+  padding: 0.5rem 0;
+}
