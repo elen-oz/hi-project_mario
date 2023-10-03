@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-/* breakpoint-xxl: 2560px; */
-/* breakpoint-laptop-l: 1440px; */
-/* breakpoint-laptop: 1170px; */
+/* breakpoint-xxl: 1400px; */
+/* breakpoint-laptop-xl: 1200px; */
+/* breakpoint-laptop-l: 992px; */
+/* breakpoint-medium: 768px; */
+/* breakpoint-small: >576px; */
+/* breakpoint-x-small: <576px; */
 
 @media (max-height: 1050px) {
   body {
     background-size: cover;
   }
+}
+
+/* breakpoint-medium: 768px */
+@media (max-width: 768px) {
   body {
     background: none;
     background-color: #6b8bfb;
@@ -15,10 +22,6 @@
   .running-mario {
     display: none;
   }
-}
-
-/* breakpoint-tablet: 768px */
-@media (max-width: 768px) {
   .video {
     width: 400px;
     height: 225px;
