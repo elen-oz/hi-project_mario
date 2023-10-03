@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-/* breakpoint-xxl: 1400px; */
-/* breakpoint-laptop-xl: 1200px; */
-/* breakpoint-laptop-l: 992px; */
-/* breakpoint-medium: 768px; */
-/* breakpoint-small: >576px; */
-/* breakpoint-x-small: <576px; */
-
-/* breakpoint-mobile-m: 375px */
 @media (min-width: 375px) {
   .content {
     max-width: 95%;
@@ -15,7 +7,6 @@
   }
 }
 
-/* breakpoint-mobile-l: 425px */
 @media (min-width: 425px) {
   body {
     background: linear-gradient(
@@ -24,7 +15,6 @@
         rgba(227, 227, 227, 0.3)
       ),
       url('../img/bg12.jpeg');
-
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -33,7 +23,6 @@
     max-width: 95%;
     padding: 0 2%;
   }
-
   .site-header {
     z-index: 10;
     width: 100%;
@@ -41,11 +30,9 @@
     font-size: 1.5rem;
     background-color: var(--indigo);
   }
-
   .site-nav__mobile-menu {
     display: none;
   }
-
   .site-nav__desktop-menu {
     display: inline;
   }
@@ -55,7 +42,6 @@
     padding: 1.5rem 0;
     gap: 0.5rem;
   }
-  /* ? проверить */
   .site-header__desktop-dash {
     display: inline;
   }
@@ -81,7 +67,6 @@
   }
 }
 
-/* breakpoint-tablet-s: 610px */
 @media (min-width: 610px) {
   p.two-columns {
     column-count: 2;
@@ -104,7 +89,6 @@
   }
 }
 
-/* breakpoint-medium: 768px */
 @media (min-width: 767px) {
   .site-header {
     border-bottom: var(--border-big);
@@ -125,7 +109,6 @@
     background-size: cover;
     background-attachment: fixed;
   }
-
   .hero-section {
     height: 100vh;
     margin-top: -7rem;
@@ -158,26 +141,17 @@
     bottom: 0;
     right: 0;
   }
-
-  /* .video {
-    width: 400px;
-    height: 225px;
-  } */
-
   .video {
     width: 560px;
     height: 315px;
   }
-
   .image {
     display: inline-block;
   }
-
   .float-left {
     width: 8rem;
     margin-right: 10px;
   }
-
   .float-right {
     width: 8rem;
     margin-left: 10px;
