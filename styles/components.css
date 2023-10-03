@@ -253,7 +253,7 @@ p.one-column {
 }
 
 .cursor-mario {
-  cursor: url('/img/cursor/mario-cursor32x32.cur'), auto;
+  cursor: url('./img/cursor/mario-cursor32x32.cur'), auto;
 }
 
 .footer {
