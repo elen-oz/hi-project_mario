@@ -6,26 +6,27 @@
 }
 
 :root {
-  --blue: #007bff;
-  --cyan: #17a2b8;
-  --gray-dark: #343a40;
-  --gray: #6c757d;
-  --secondary: #6c757d;
-  --green: #28a745;
-  --green-dark: #208c39;
-  --indigo: #6610f2;
-  --info: #17a2b8;
-  --light: #f8f9fa;
-  --orange: #fd7e14;
-  --pink: #e83e8c;
-  --primary: #6b8bfb;
-  --purple: #6f42c1;
-  --red: #dc3545;
-  --success: #28a745;
-  --teal: #20c997;
-  --white: #fff;
-  --yellow: #ffc107;
   --black: #000;
+  --white: #fff;
+  --gray: #6c757d;
+  --primary: #6b8bfb;
+  --blue: #007bff;
+  --yellow: #ffc107;
+  --orange: #fd7e14;
+  --red: #dc3545;
+  --pink: #e83e8c;
+  --indigo: #6610f2;
+  --cyan: #17a2b8;
+  --green-dark: #208c39;
+  --transparent-orange: rgba(255, 170, 0, 0.8);
+  --transparent-red: rgba(255, 0, 0, 0.8);
+  --transparent-green: rgba(0, 255, 34, 0.8);
+  --transparent-blue: rgba(0, 21, 255, 0.8);
+  --bg-text: rgba(255, 255, 255, 0.8);
+  --shadow: rgba(0, 0, 0, 0.5);
+
+  --item-shadow: 7px 7px 0px 0px var(--shadow);
+  --text-shadow: 7px 7px 0px var(--shadow);
 }
 html {
   width: 100%;
@@ -33,12 +34,7 @@ html {
 
 body {
   width: 100%;
-  background: url('../img/bg11.jpeg');
-  background-color: #6b8bfb;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  background-attachment: fixed;
+  background-color: var(--primary);
 }
 
 html,
