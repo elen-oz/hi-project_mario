@@ -133,7 +133,7 @@
   color: var(--red);
 }
 
-.button-play {
+.hero-section__button-play {
   margin: 0 auto 0;
   font-size: 1.3rem;
   padding: 1rem;
@@ -142,15 +142,15 @@
   border: var(--border-small);
   box-shadow: var(--item-shadow);
 }
-a .button-play {
+a .hero-section__button-play {
   color: var(--black);
 }
 
-.button-play:hover {
+.hero-section__button-play:hover {
   background-color: var(--yellow);
 }
 
-.button-play:active {
+.hero-section__button-play:active {
   background-color: var(--blue);
   box-shadow: var(--item-shadow);
 

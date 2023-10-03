@@ -96,7 +96,7 @@
   .mobile-menu__floating-button {
     border: var(--border-mid);
   }
-  .button-play {
+  .hero-section__button-play {
     border: var(--border-mid);
   }
   .footer {
@@ -112,7 +112,7 @@
   .mobile-menu__floating-button {
     border: var(--border-big);
   }
-  .button-play {
+  .hero-section__button-play {
     border: var(--border-big);
   }
   .footer {
