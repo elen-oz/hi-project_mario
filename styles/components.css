@@ -119,11 +119,11 @@ a .button-play {
 
 @keyframes runningMario {
   from {
-    transform: translateX(-400%);
+    transform: translateX(-500%);
   }
 
   to {
-    transform: translateX(400%);
+    transform: translateX(500%);
   }
 }
 
@@ -131,7 +131,7 @@ a .button-play {
   width: 9rem;
   z-index: -10;
   position: fixed;
-  bottom: 4.2rem;
+  bottom: 4.8rem;
   animation: runningMario 5s linear infinite;
 }
 .section__title {
