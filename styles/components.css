@@ -131,7 +131,7 @@ a .button-play {
   width: 9rem;
   z-index: -10;
   position: fixed;
-  bottom: 4.8rem;
+  bottom: 4.7rem;
   animation: runningMario 5s linear infinite;
 }
 .section__title {
