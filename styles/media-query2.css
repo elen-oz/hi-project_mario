@@ -13,34 +13,6 @@
     max-width: 95%;
     padding: 0 2%;
   }
-  .site-nav_menu {
-    font-size: 1.3rem;
-  }
-  .main-title {
-    font-size: 2.5rem;
-  }
-  .button-play {
-    font-size: 1.3rem;
-    padding: 0.7rem;
-  }
-  /* p.two-columns {
-    font-size: 1.1rem;
-  } */
-  /* p.one-column {
-    font-size: 1.1rem;
-  } */
-  /* .image {
-    display: none;
-  } */
-  .float-left {
-    display: none;
-  }
-  .float-right {
-    display: none;
-  }
-  .history-ol {
-    font-size: 1rem;
-  }
 }
 
 /* breakpoint-mobile-l: 425px */
@@ -60,6 +32,32 @@
   .container {
     max-width: 95%;
     padding: 0 2%;
+  }
+
+  .site-header {
+    z-index: 10;
+    width: 100%;
+    height: fit-content;
+    font-size: 1.5rem;
+    background-color: var(--indigo);
+  }
+
+  .site-nav__mobile-menu {
+    display: none;
+  }
+
+  .site-nav__desktop-menu {
+    display: inline;
+  }
+
+  .site-nav_menu {
+    flex-direction: row;
+    padding: 1.5rem 0;
+    gap: 0.5rem;
+  }
+  /* ? проверить */
+  .site-header__desktop-dash {
+    display: inline;
   }
   .main-title {
     font-size: 3rem;
@@ -85,21 +83,41 @@
 
 /* breakpoint-tablet-s: 610px */
 @media (min-width: 610px) {
-  .main-title {
-    font-size: 5rem;
-  }
-  .video {
-    display: none;
-  }
-
   p.two-columns {
     column-count: 2;
     column-gap: 30px;
+  }
+  .main-title {
+    font-size: 5rem;
+  }
+  .site-header {
+    border-bottom: var(--border-mid);
+  }
+  .mobile-menu__floating-button {
+    border: var(--border-mid);
+  }
+  .button-play {
+    border: var(--border-mid);
+  }
+  .footer {
+    border-top: var(--border-mid);
   }
 }
 
 /* breakpoint-medium: 768px */
 @media (min-width: 767px) {
+  .site-header {
+    border-bottom: var(--border-big);
+  }
+  .mobile-menu__floating-button {
+    border: var(--border-big);
+  }
+  .button-play {
+    border: var(--border-big);
+  }
+  .footer {
+    border-top: var(--border-big);
+  }
   body {
     background: url('../img/bg11.jpeg');
     background-repeat: no-repeat;
@@ -131,7 +149,9 @@
     bottom: 4.7rem;
     animation: runningMario 10s linear infinite;
   }
-
+  .section {
+    margin-bottom: 3rem;
+  }
   .bg-audio {
     display: block;
     position: fixed;
@@ -139,9 +159,14 @@
     right: 0;
   }
 
-  .video {
+  /* .video {
     width: 400px;
     height: 225px;
+  } */
+
+  .video {
+    width: 560px;
+    height: 315px;
   }
 
   .image {
@@ -156,6 +181,14 @@
   .float-right {
     width: 8rem;
     margin-left: 10px;
+  }
+  .history-ol {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5rem;
+
+    font-size: 1rem;
+    box-shadow: var(--item-shadow);
   }
   .footer {
     height: fit-content;

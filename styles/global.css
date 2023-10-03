@@ -27,6 +27,9 @@
 
   --item-shadow: 7px 7px 0px 0px var(--shadow);
   --text-shadow: 7px 7px 0px var(--shadow);
+  --border-big: 4px solid var(--black);
+  --border-mid: 3px solid var(--black);
+  --border-small: 2px solid var(--black);
 }
 html {
   width: 100%;
