@@ -7,17 +7,28 @@
 /* breakpoint-small: >576px; */
 /* breakpoint-x-small: <576px; */
 
-@media (max-height: 1050px) {
+/* max-HEIGHT: 1050px */
+/* @media (min-width: 1400px) { */
+@media (min-width: 1920px) {
   body {
-    background-size: cover;
+    background-image: url('../img/bg11.jpeg');
+    background-color: #6b8bfb;
+    background-position: bottom;
+    background-repeat: repeat;
+    background-size: contain;
   }
 }
 
 /* breakpoint-medium: 768px */
 @media (max-width: 768px) {
   body {
-    background: none;
+    /* background: none;
+    background-color: #6b8bfb; */
+    background-image: url('../img/bg12.jpeg');
     background-color: #6b8bfb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .running-mario {
     display: none;
