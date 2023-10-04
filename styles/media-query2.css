@@ -179,5 +179,8 @@
   }
   .contact__wrapper {
     max-width: 30rem;
+
+    background-color: var(--bg-text);
+    box-shadow: var(--item-shadow);
   }
 }
