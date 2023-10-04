@@ -2,7 +2,6 @@
   position: relative;
   z-index: 10;
   width: 100%;
-  /* height: fit-content; */
   min-height: 4rem;
 
   font-size: 1.3rem;
@@ -11,28 +10,25 @@
 }
 
 .site-nav__mobile-menu {
+  /* z-index: 1000; */
   text-align: start;
 }
 
 .mobile-menu__item {
+  /* z-index: 1000; */
   width: 65%;
   visibility: hidden;
   transition: all 0.5s;
   translate: -100%;
 }
-/* .mobile-menu__item a {
-  display: block;
-  width: 10rem;
-} */
+
 .site-nav__link {
   display: block;
-  /* width: 5rem; */
-  /* height: 3rem; */
   color: inherit;
 }
 .site-nav__mobile-menu .site-nav__link {
   padding: 0.4rem 0 0.4rem 2.5rem;
-  background-color: var(--red);
+  background-color: var(--orange);
   border: var(--border-small);
 }
 .mobile-menu__toggle {
@@ -182,7 +178,7 @@ a.p-egg-link .running-mario {
 }
 
 .text {
-  z-index: 100;
+  z-index: 50;
   padding: 0 10px;
   font-family: 'VT323', monospace;
   font-size: 1.2rem;
