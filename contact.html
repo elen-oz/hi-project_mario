@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Super Mario</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="contact--wrapper">
+      <header class="site-header">
+        <div class="site-nav__mobile-menu">
+          <input type="checkbox" class="mobile-menu__toggle" id="toggle" />
+          <div class="mobile-menu__item">
+            <a class="site-nav__link" href="./index.html">Home</a>
+          </div>
+          <div class="mobile-menu__item">
+            <a class="site-nav__link" href="./gameplay.html">Gameplay</a>
+          </div>
+          <div class="mobile-menu__item">
+            <a class="site-nav__link" href="./history.html">History</a>
+          </div>
+          <label class="mobile-menu__floating-button" for="toggle">Menu</label>
+        </div>
+
+        <nav class="site-nav__desktop-menu">
+          <ul class="site-nav_menu">
+            <li><a class="site-nav__link" href="./index.html">Home</a></li>
+            <li class="site-header__desktop-dash">&mdash;</li>
+            <li>
+              <a class="site-nav__link" href="./gameplay.html">Gameplay</a>
+            </li>
+            <li class="site-header__desktop-dash">&mdash;</li>
+            <li><a class="site-nav__link" href="./history.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="section">
+          <h1 class="main-title text--multi-color cursor-mario">
+            <span>g</span><span>a</span><span>m</span><span>e</span
+            ><span>p</span><span>l</span><span>a</span><span>y</span>
+          </h1>
+
+          <div class="contact__wrapper">
+            <form
+              action="http://fed25-guest-book.eskilfogelstrom.com/"
+              method="post"
+              class="contact__form"
+            >
+              <label for="name" class="contact__label">Name:</label>
+              <input type="text" id="name" name="name" class="contact__input" />
+
+              <label for="content" class="contact__label">Message:</label>
+              <textarea
+                name="content"
+                id="content"
+                class="contact__input"
+                cols="30"
+                rows="5"
+              ></textarea>
+
+              <button type="submit" class="site-button contact__button">
+                Submit
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        &mdash;
+        <a href="https://github.com/elen-oz" target="_blank" rel="nofollow"
+          >elen-oz</a
+        >
+        &mdash; &copy; 2023 &mdash;
+        <span class="site-footer__desktop-text">
+          <a
+            href="https://github.com/elen-oz/hi-project_mario"
+            target="_blank"
+            rel="nofollow"
+            >this project on GitHub</a
+          >
+          &mdash;
+          <div class="footer-text">
+            Information about the game and the source code are taken from open
+            sources.
+          </div>
+        </span>
+      </footer>
+    </div>
+    <!-- </div> -->
+  </body>
+</html>
