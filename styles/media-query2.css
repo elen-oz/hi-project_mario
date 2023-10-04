@@ -37,7 +37,7 @@
     display: inline;
   }
 
-  .site-nav_menu {
+  .site-nav__menu {
     flex-direction: row;
     padding: 1.5rem 0;
     gap: 0.5rem;

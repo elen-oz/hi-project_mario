@@ -41,7 +41,7 @@
 .site-nav__desktop-menu {
   display: none;
 }
-.site-nav_menu {
+.site-nav__menu {
   padding: 1rem 0;
   margin: 0;
   display: flex;
@@ -50,7 +50,7 @@
   align-items: center;
   font-size: 1.3rem;
 }
-.site-nav_menu li {
+.site-nav__menu li {
   list-style-type: none;
 }
 .site-header__desktop-dash {
