@@ -263,7 +263,7 @@ p.two-columns {
 }
 
 .contact__wrapper {
-  padding: 1rem 2rem;
+  padding: 1rem;
   margin: 0 auto;
 }
 
@@ -272,7 +272,7 @@ p.two-columns {
 }
 
 .contact__label {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-decoration: underline;
   margin-bottom: 0.5rem;
 }
@@ -314,8 +314,8 @@ p.two-columns {
 }
 
 .contact__radio--none-color {
-  min-width: 4.5rem;
-  font-size: 0.7rem;
+  min-width: 4rem;
+  font-size: 0.6rem;
 }
 
 legend {
@@ -335,22 +335,22 @@ legend {
   justify-content: center;
 }
 /* ===========RED================== */
-.radio__dot--red ~ label {
-  color: var(--red);
+.radio__dot--salmon ~ label {
+  color: salmon;
 }
-.radio__dot--red:checked {
+.radio__dot--salmon:checked {
   background-color: var(--white);
-  border: 2px solid var(--red);
+  border: 2px solid salmon;
 }
-.radio__dot--red::after {
+.radio__dot--salmon::after {
   height: 0.5em;
   width: 0.5em;
-  background-color: var(--red);
+  background-color: salmon;
   border-radius: 100%;
   content: '';
   visibility: hidden;
 }
-.radio__dot--red:checked::after {
+.radio__dot--salmon:checked::after {
   visibility: visible;
 }
 
