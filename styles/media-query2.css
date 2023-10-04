@@ -65,6 +65,10 @@
     padding-left: 2rem;
     padding-right: 1rem;
   }
+  .contact__wrapper {
+    padding-inline: auto;
+    max-width: 80%;
+  }
 }
 
 @media (min-width: 610px) {
@@ -86,6 +90,9 @@
   }
   .footer {
     border-top: var(--border-mid);
+  }
+  .contact__wrapper {
+    max-width: 70%;
   }
 }
 
@@ -169,5 +176,8 @@
   }
   .site-footer__desktop-text {
     display: inline;
+  }
+  .contact__wrapper {
+    max-width: 30rem;
   }
 }

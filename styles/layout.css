@@ -1,19 +1,41 @@
 @import './global.css';
 
 .wrapper {
+  min-height: 100vh;
   font-family: 'Visitor', 'VT323', monospace;
   margin: 0 auto;
   text-align: center;
 
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+}
+
+.contact--wrapper {
+  height: 100vh;
+  font-family: 'Visitor', 'VT323', monospace;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
   flex: 1 0 auto;
 }
+.hero-section {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
+.section {
+  margin-bottom: 1rem;
+}
 .container {
   margin: 0 auto;
   max-width: 1000px;
