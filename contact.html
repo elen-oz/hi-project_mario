@@ -46,13 +46,19 @@
           </h1>
 
           <div class="contact__wrapper">
-            <form
-              action="http://fed25-guest-book.eskilfogelstrom.com/"
-              method="post"
-              class="contact__form"
-            >
+            <form action="#" method="post" class="contact__form">
               <label for="name" class="contact__label">Name:</label>
               <input type="text" id="name" name="name" class="contact__input" />
+
+              <label for="subject-select" class="contact__label"
+                >Subject:</label
+              >
+              <select name="subject" id="subject-select" class="contact__input">
+                <option value="">--Choose a subject--</option>
+                <option value="question">Question</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="other">Other</option>
+              </select>
 
               <label for="content" class="contact__label">Message:</label>
               <textarea
