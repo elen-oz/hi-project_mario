@@ -264,6 +264,8 @@ p.two-columns {
 }
 
 .contact__label {
+  font-size: 1.3rem;
+  text-decoration: underline;
   margin-bottom: 0.5rem;
 }
 
@@ -289,20 +291,25 @@ p.two-columns {
 }
 
 /* --------- */
-/* p,
-label {
-  font: 1rem 'Fira Sans', sans-serif;
-} */
 
 .wrapper--radio {
-  text-align: start;
+  text-align: center;
   display: flex;
 }
 
+.contact__input--radio {
+  font-size: 1rem;
+}
+
 .contact__input--radio:not(:last-child) {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .contact__radio--none-color {
   font-size: 0.7rem;
+}
+
+legend {
+  font-size: 1rem;
+  text-align: center;
 }
