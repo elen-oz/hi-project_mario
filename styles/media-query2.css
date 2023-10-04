@@ -7,7 +7,7 @@
   }
 }
 
-@media (min-width: 425px) {
+@media (min-width: 424px) {
   body {
     background: linear-gradient(
         0deg,
@@ -23,6 +23,8 @@
     max-width: 95%;
     padding: 0 2%;
   }
+
+  /* ========================== */
   .site-header {
     z-index: 10;
     width: 100%;
@@ -30,6 +32,8 @@
     font-size: 1.5rem;
     background-color: var(--indigo);
   }
+  /* ========================== */
+
   .site-nav__mobile-menu {
     display: none;
   }
@@ -182,5 +186,8 @@
 
     background-color: var(--bg-text);
     box-shadow: var(--item-shadow);
+  }
+  .contact__radio--none-color {
+    font-size: 1rem;
   }
 }
