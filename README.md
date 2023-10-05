@@ -2,7 +2,12 @@
 
 ## 2nd Project
 
-[See Live HERE](https://serene-bombolone-46fa8a.netlify.app/)
+## [See Live HERE](https://elen-oz.github.io/hi-project_mario/)
+
+---
+
+_[Netlify link](https://serene-bombolone-46fa8a.netlify.app/)_
+_There is a problem with the file paths, so an error occurs (in the process of solving)_
 
 ---
 
