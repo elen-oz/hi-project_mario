@@ -1,8 +1,8 @@
 ## Hyper Island: The Fundamentals Week
 
-## 2nd Project
+### 2nd Project
 
-## [See Live HERE](https://elen-oz.github.io/hi-project_mario/)
+#### [See Live HERE](https://elen-oz.github.io/hi-project_mario/)
 
 ---
 
