@@ -10,6 +10,7 @@
   --white: #fff;
   --gray: #6c757d;
   --primary: #6b8bfb;
+  --primary-light: #aebffc;
   --blue: #007bff;
   --yellow: #ffc107;
   --orange: #fd7e14;
@@ -38,7 +39,7 @@ html {
 
 body {
   width: 100%;
-  background-color: var(--primary);
+  background-color: var(--primary-light);
 }
 
 html,

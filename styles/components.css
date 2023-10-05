@@ -431,3 +431,8 @@ legend {
 .radio__dot--black:checked::after {
   visibility: visible;
 }
+
+.submittet__img {
+  width: 6rem;
+  margin-bottom: 1rem;
+}
