@@ -146,6 +146,12 @@ a .site-button {
   transform: translateY(4px);
 }
 
+.site__button-text-under {
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+  background-color: var(--primary-light);
+}
+
 a.p-egg-link .running-mario {
   display: none;
 }
