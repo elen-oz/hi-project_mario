@@ -14,11 +14,15 @@
         const urlParams = new URLSearchParams(new URL(currentUrl).search);
 
         const userName = urlParams.get('name');
+        const userSubject = urlParams.get('subject');
         const userColor = urlParams.get('color');
         const userContent = urlParams.get('content');
 
+        console.log('subject:', userSubject);
+
         return {
           name: userName,
+          subject: userSubject,
           color: userColor,
           content: userContent,
         };
@@ -31,19 +35,18 @@
       let resultObject = getURLParameters();
 
       let testUserName = resultObject.name.trim();
+      let testUserSubject = resultObject.subject;
       let testUserContent = resultObject.content.trim();
 
       if (testUserName === '') {
         window.alert(`It is rude not to introduce yourself 🤡`);
-      } else if (testUserContent === '') {
-        window.alert(
-          `I don't see your message...\nDon't you have anything to say?`
-        );
+      } else if (testUserContent === '' || testUserSubject === '') {
+        window.alert(`You missed subject or message... Try again`);
       } else if (testUserName.length < 2 || testUserContent.length < 2) {
         window.alert(`Do not avoid questions 🤖`);
       } else if (resultObject.color === 'none-color') {
         window.alert(
-          `I saw what you wrote!!\nDo not like colors??\nReally??\nThen, ${resultObject.name}, your message "${resultObject.content}" goes nowhere... 🗑`
+          `I saw what you wrote!!\nDo not like colors??\nReally??\nThen, ${resultObject.name}, your ${resultObject.subject} "${resultObject.content}" goes nowhere... 🗑`
         );
       } else if (resultObject.color === 'salmon') {
         window.alert(
