@@ -17,10 +17,6 @@
         const userColor = urlParams.get('color');
         const userContent = urlParams.get('content');
 
-        console.log(userName);
-        console.log(userColor);
-        console.log(userContent);
-
         return {
           name: userName,
           color: userColor,
@@ -36,9 +32,6 @@
 
       let testUserName = resultObject.name.trim();
       let testUserContent = resultObject.content.trim();
-
-      console.log(`name_${testUserName}_`);
-      console.log(`message_${testUserContent}_`);
 
       if (testUserName === '' || testUserContent === '') {
         window.alert(
