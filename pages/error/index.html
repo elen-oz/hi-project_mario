@@ -6,6 +6,43 @@
     <title>Error - Super Mario</title>
     <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../../styles/styles.css" />
+
+    <script type="text/javascript">
+      function getURLParameters() {
+        const currentUrl = window.location.href;
+
+        const urlParams = new URLSearchParams(new URL(currentUrl).search);
+
+        const userName = urlParams.get('name');
+        const userColor = urlParams.get('color');
+        const userContent = urlParams.get('content');
+
+        console.log(userName);
+        console.log(userColor);
+        console.log(userContent);
+
+        return {
+          name: userName,
+          color: userColor,
+          content: userContent,
+        };
+      }
+
+      window.onload = () => {
+        getURLParameters();
+      };
+
+      let resultObject = getURLParameters();
+      if (resultObject.color === 'none-color') {
+        window.alert(
+          `I saw what you wrote!!\nYour name is ${resultObject.name} and you do not like colors??\nReally??\nThen, your message "${resultObject.content}" goes nowhere...`
+        );
+      } else {
+        window.alert(
+          `Aha!!\nYour name is ${resultObject.name}, you like ${resultObject.color} color the most and your message is "${resultObject.content}"\nBut I won't tell anyone this precious information...\n\n\n\n\n...Maybe...`
+        );
+      }
+    </script>
   </head>
 
   <body>
