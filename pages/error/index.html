@@ -33,9 +33,11 @@
       let testUserName = resultObject.name.trim();
       let testUserContent = resultObject.content.trim();
 
-      if (testUserName === '' || testUserContent === '') {
+      if (testUserName === '') {
+        window.alert(`It is rude not to introduce yourself 🤡`);
+      } else if (testUserContent === '') {
         window.alert(
-          `It's not good to put spaces in text fields, avoiding questions 🤡`
+          `I don't see your message...\nDon't you have anything to say?`
         );
       } else if (testUserName.length < 2 || testUserContent.length < 2) {
         window.alert(`Do not avoid questions 🤖`);
@@ -43,9 +45,13 @@
         window.alert(
           `I saw what you wrote!!\nDo not like colors??\nReally??\nThen, ${resultObject.name}, your message "${resultObject.content}" goes nowhere... 🗑`
         );
+      } else if (resultObject.color === 'salmon') {
+        window.alert(
+          `${resultObject.name}, you have great taste in colors!\nAren't you an artist?`
+        );
       } else {
         window.alert(
-          `Aha!!\n✏️ Your name is ${resultObject.name}, you like ${resultObject.color} color the most and your message is "${resultObject.content}"\nBut I won't tell anyone this precious information...\n\n\n\n\n...Maybe...`
+          `Aha!!\n✏️ ${resultObject.name}, you like ${resultObject.color} color the most and your message is "${resultObject.content}"\nBut I won't tell anyone this precious information...\n\n\n\n\n...Maybe...`
         );
       }
     </script>
