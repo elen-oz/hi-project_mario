@@ -44,13 +44,15 @@
         window.alert(
           `It's not good to put spaces in text fields, avoiding questions 🤡`
         );
+      } else if (testUserName.length < 2 || testUserContent.length < 2) {
+        window.alert(`Do not avoid questions 🤖`);
       } else if (resultObject.color === 'none-color') {
         window.alert(
-          `I saw what you wrote!!\nYour name is ${resultObject.name} and you do not like colors??\nReally??\nThen, your message "${resultObject.content}" goes nowhere...`
+          `I saw what you wrote!!\nDo not like colors??\nReally??\nThen, ${resultObject.name}, your message "${resultObject.content}" goes nowhere... 🗑`
         );
       } else {
         window.alert(
-          `Aha!!\nYour name is ${resultObject.name}, you like ${resultObject.color} color the most and your message is "${resultObject.content}"\nBut I won't tell anyone this precious information...\n\n\n\n\n...Maybe...`
+          `Aha!!\n✏️ Your name is ${resultObject.name}, you like ${resultObject.color} color the most and your message is "${resultObject.content}"\nBut I won't tell anyone this precious information...\n\n\n\n\n...Maybe...`
         );
       }
     </script>
