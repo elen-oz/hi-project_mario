@@ -33,7 +33,18 @@
       };
 
       let resultObject = getURLParameters();
-      if (resultObject.color === 'none-color') {
+
+      let testUserName = resultObject.name.trim();
+      let testUserContent = resultObject.content.trim();
+
+      console.log(`name_${testUserName}_`);
+      console.log(`message_${testUserContent}_`);
+
+      if (testUserName === '' || testUserContent === '') {
+        window.alert(
+          `It's not good to put spaces in text fields, avoiding questions 🤡`
+        );
+      } else if (resultObject.color === 'none-color') {
         window.alert(
           `I saw what you wrote!!\nYour name is ${resultObject.name} and you do not like colors??\nReally??\nThen, your message "${resultObject.content}" goes nowhere...`
         );
