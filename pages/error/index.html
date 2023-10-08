@@ -38,10 +38,8 @@
 
       if (testUserName === '') {
         window.alert(`It is rude not to introduce yourself 🤡`);
-      } else if (testUserContent === '' || testUserSubject === '') {
-        window.alert(`You missed subject or message... Try again`);
-      } else if (testUserName.length < 2 || testUserContent.length < 2) {
-        window.alert(`Do not avoid questions 🤖`);
+      } else if (testUserContent === '') {
+        window.alert(`You missed your message... Try again`);
       } else if (resultObject.color === 'none-color') {
         window.alert(
           `I saw what you wrote!!\nDo not like colors??\nReally??\nThen, ${resultObject.name}, your ${resultObject.subject} "${resultObject.content}" goes nowhere... 🗑`
