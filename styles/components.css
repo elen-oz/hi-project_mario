@@ -10,12 +10,10 @@
 }
 
 .site-nav__mobile-menu {
-  /* z-index: 1000; */
   text-align: start;
 }
 
 .mobile-menu__item {
-  /* z-index: 1000; */
   width: 65%;
   visibility: hidden;
   transition: all 0.5s;
@@ -261,8 +259,6 @@ p.two-columns {
   padding: 0.5rem 0;
 }
 
-/* ============== */
-
 .label,
 .input {
   display: block;
@@ -304,8 +300,6 @@ p.two-columns {
   width: 10rem;
 }
 
-/* --------- */
-
 .wrapper--radio {
   text-align: center;
   display: flex;
@@ -340,7 +334,7 @@ legend {
   align-items: center;
   justify-content: center;
 }
-/* ===========RED================== */
+
 .radio__dot--salmon ~ label {
   color: salmon;
 }
@@ -360,7 +354,6 @@ legend {
   visibility: visible;
 }
 
-/* ===========BLUE================== */
 .radio__dot--blue ~ label {
   color: var(--blue);
 }
@@ -381,7 +374,6 @@ legend {
   visibility: visible;
 }
 
-/* ===========YELLOW================== */
 .radio__dot--yellow ~ label {
   color: var(--yellow);
 }
@@ -401,7 +393,7 @@ legend {
 .radio__dot--yellow:checked::after {
   visibility: visible;
 }
-/* ===========GREEN================== */
+
 .radio__dot--green ~ label {
   color: var(--green);
 }
@@ -421,7 +413,7 @@ legend {
 .radio__dot--green:checked::after {
   visibility: visible;
 }
-/* ===========BLACK================== */
+
 .radio__dot--black:checked {
   background-color: var(--white);
   border: 2px solid var(--black);
