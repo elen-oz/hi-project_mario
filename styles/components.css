@@ -273,7 +273,7 @@ p.two-columns {
   margin: 0 auto;
 }
 
-.contact__label {
+.radio-input__label {
   font-size: 1rem;
   text-decoration: underline;
   margin-bottom: 0.5rem;
@@ -300,16 +300,16 @@ p.two-columns {
   width: 10rem;
 }
 
-.wrapper--radio {
+.radio-input {
   text-align: center;
   display: flex;
 }
 
-.contact__input--radio {
+.container__input {
   font-size: 1rem;
 }
 
-.contact__input--radio:not(:last-child) {
+.container__input:not(:last-child) {
   margin-right: 0.5rem;
 }
 
