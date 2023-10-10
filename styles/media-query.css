@@ -205,6 +205,10 @@
 }
 
 @media (min-width: 100rem) {
+  body {
+    background-color: var(--primary);
+    background-size: contain;
+  }
   .hero__egg-link .hero__egg-img {
     display: none;
   }
