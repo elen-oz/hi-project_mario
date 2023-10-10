@@ -62,67 +62,63 @@
 
   <body>
     <div class="wrapper">
-      <header class="site-header">
-        <div class="site-nav__mobile-menu">
-          <input type="checkbox" class="mobile-menu__toggle" id="toggle" />
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../../index.html">Home</a>
+      <header class="header">
+        <div class="header__mobile-nav">
+          <input type="checkbox" class="mobile-nav__toggle" id="toggle" />
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../../index.html">Home</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../gameplay/index.html">Gameplay</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../history/index.html">History</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../history/index.html">History</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../contact/index.html">Contact</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../contact/index.html">Contact</a>
           </div>
 
-          <label class="mobile-menu__floating-button" for="toggle">Menu</label>
+          <label class="mobile-nav__floating-button" for="toggle">Menu</label>
         </div>
 
-        <nav class="site-nav__desktop-menu">
-          <ul class="site-nav__menu">
-            <li><a class="site-nav__link" href="../../index.html">Home</a></li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+        <nav class="header__desktop-nav">
+          <ul class="desktop-nav__list">
             <li>
-              <a class="site-nav__link" href="../gameplay/index.html"
-                >Gameplay</a
-              >
+              <a class="nav__link" href="../../index.html">Home</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../history/index.html">History</a>
+              <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../contact/index.html">Contact</a>
+              <a class="nav__link" href="../history/index.html">History</a>
+            </li>
+            <li class="desktop-nav__separator">&mdash;</li>
+            <li>
+              <a class="nav__link" href="../contact/index.html">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
 
       <main class="main">
-        <section class="section">
-          <h1 class="main-title text--multi-color cursor-mario">
+        <section class="content__section">
+          <h1 class="hero__title title--multi-color cursor-mario">
             <span>E</span><span>r</span><span>r</span><span>o</span
             ><span>r</span>
           </h1>
         </section>
         <section>
           <div class="contact__wrapper">
-            <img
-              src="../../img/gifs/mario-cat.gif"
-              alt=""
-              class="submitted__img"
-            />
-            <h2 class="section__title section__title--third">Sorry!</h2>
-            <p class="text" style="font-size: 1.3rem; text-align: center">
+            <img src="../../img/gifs/mario-cat.gif" alt="" class="error__img" />
+            <h2 class="section__title title--third">Sorry!</h2>
+            <p class="section__text text--large text--center">
               <strong><u>The form does not work</u></strong> correctly yet and
               <b><u>does not send data anywhere</u></b
               >!
             </p>
-            <p class="text" style="font-size: 0.94rem; text-align: center">
+            <p class="section__text text--small text--center">
               You can switch to another page using the menu at the top of the
               page.
             </p>
@@ -136,7 +132,7 @@
           >elen-oz</a
         >
         &mdash; &copy; 2023 &mdash;
-        <span class="site-footer__desktop-text">
+        <span class="footer__text">
           <a
             href="https://github.com/elen-oz/hi-project_mario"
             target="_blank"
@@ -144,7 +140,7 @@
             >this project on GitHub</a
           >
           &mdash;
-          <div class="footer-text">
+          <div class="footer__info">
             Information about the game is taken from open sources.
           </div>
         </span>
