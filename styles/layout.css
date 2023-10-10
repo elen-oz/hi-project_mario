@@ -16,6 +16,7 @@
 }
 
 .hero-section {
+  height: 100vh;
   position: relative;
   max-height: calc(100vh - 10rem);
   display: flex;
