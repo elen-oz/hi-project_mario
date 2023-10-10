@@ -10,60 +10,60 @@
 
   <body>
     <div class="wrapper">
-      <header class="site-header">
-        <div class="site-nav__mobile-menu">
-          <input type="checkbox" class="mobile-menu__toggle" id="toggle" />
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../../index.html">Home</a>
+      <header class="header">
+        <div class="header__mobile-nav">
+          <input type="checkbox" class="mobile-nav__toggle" id="toggle" />
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../../index.html">Home</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../gameplay/index.html">Gameplay</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../history/index.html">History</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../history/index.html">History</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../contact/index.html">Contact</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../contact/index.html">Contact</a>
           </div>
 
-          <label class="mobile-menu__floating-button" for="toggle">Menu</label>
+          <label class="mobile-nav__floating-button" for="toggle">Menu</label>
         </div>
 
-        <nav class="site-nav__desktop-menu">
-          <ul class="site-nav__menu">
-            <li><a class="site-nav__link" href="../../index.html">Home</a></li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+        <nav class="header__desktop-nav">
+          <ul class="desktop-nav__list">
             <li>
-              <a class="site-nav__link" href="../gameplay/index.html"
-                >Gameplay</a
-              >
+              <a class="nav__link" href="../../index.html">Home</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../history/index.html">History</a>
+              <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../contact/index.html">Contact</a>
+              <a class="nav__link" href="../history/index.html">History</a>
+            </li>
+            <li class="desktop-nav__separator">&mdash;</li>
+            <li>
+              <a class="nav__link" href="../contact/index.html">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
 
       <main class="main">
-        <div class="container">
-          <section class="section section--bigger-space">
-            <h1 class="main-title text--multi-color cursor-mario">
+        <div class="content">
+          <section class="content__section section--bigger-space">
+            <h1 class="hero__title title--multi-color cursor-mario">
               <span>h</span><span>i</span><span>s</span><span>t</span
               ><span>o</span><span>r</span><span>y</span>
             </h1>
           </section>
-          <section class="section">
-            <p class="text two-columns">
+          <section class="content__section">
+            <p class="section__text text--two-columns">
               <img
                 src="../../img/gifs/giphy3.gif"
                 alt=""
-                class="image float-left"
+                class="section__img img--float-left"
                 style="margin-top: 10px"
               />
               Few video games can claim the distinction of being in the general
@@ -79,7 +79,7 @@
               <img
                 src="../../img/gifs/all-marios.gif"
                 alt=""
-                class="image float-right"
+                class="section__img img--float-right"
                 style="margin-top: 10px"
               />
               Mario wasn&#8217;t even the main character in his first appearance
@@ -90,12 +90,12 @@
               a <strong>carpenter</strong>.
             </p>
 
-            <video class="video" controls loading="lazy">
+            <video class="video__content" controls loading="lazy">
               <source src="../../video/history-video1.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
-            <p class="text two-columns">
+            <p class="section__text text--two-columns">
               Jumpman had to jump over the barrels thrown by Donkey Kong to save
               the damsel in distress who would later be called Princess. Mario
               has come a long way since then. Over the last three decades, he
@@ -109,11 +109,11 @@
             </p>
           </section>
 
-          <section class="section">
-            <h2 class="section__title section__title--second">
+          <section class="content__section">
+            <h2 class="section__title title--second">
               The beginning of Nintendo
             </h2>
-            <p class="text two-columns">
+            <p class="section__text text--two-columns">
               1889 was the year when it all began. Fusajiro Yamauchi established
               a small company named <strong><u>Nintendo Koppai</u></strong> (🔎
               wiki) to manufacture Japanese gambling cards called “hanafuda.”
@@ -185,7 +185,7 @@
             </p>
 
             <iframe
-              class="video"
+              class="video__content"
               loading="lazy"
               src="https://www.youtube.com/embed/Iq1Y2zKV-P4?si=a8S6GhbnM2NrmXol&amp;controls=0"
               title="YouTube video player"
@@ -195,18 +195,16 @@
             ></iframe>
           </section>
 
-          <section class="section">
-            <h2 class="section__title section__title--third">
-              The evolution of Mario
-            </h2>
-            <p class="text one-column">
+          <section class="content__section">
+            <h2 class="section__title title--third">The evolution of Mario</h2>
+            <p class="section__text one-column">
               Although we&#8217;re unable to enumerate all the games that had
               Mario in them, we&#8217;ve listed some that marked important
               milestones.
             </p>
-            <ol class="text history-ol">
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+            <ol class="section__text history-list">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong><u> Donkey Kong (Arcade) &mdash; 1981</u></strong>
                   </summary>
@@ -220,8 +218,8 @@
                   >
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong
                       ><u>Donkey Kong (Game & Watch) &mdash; 1982</u></strong
@@ -236,8 +234,8 @@
                   >
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong><u>Mario Bros. (Arcade) &mdash; 1983</u></strong>
                   </summary>
@@ -247,8 +245,8 @@
                   nose being less protruded.
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong
                       ><u>Mario is Missing! (Super NES) &mdash; 1992</u></strong
@@ -260,8 +258,8 @@
                   Mario World.
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong
                       ><u
@@ -275,8 +273,8 @@
                   probably the most recognizable for gamers.
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong
                       ><u
@@ -293,8 +291,8 @@
                   point.
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong><u>Mario Kart Wii (Wii) &mdash; 2008</u></strong>
                   </summary>
@@ -305,8 +303,8 @@
                   enabled players to interact with people from around the world.
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong
                       ><u
@@ -320,8 +318,8 @@
                   handheld game in history.
                 </details>
               </li>
-              <li class="history-ol-item">
-                <details class="history-item__accordion">
+              <li class="history-list__item">
+                <details class="history-list__accordion">
                   <summary class="accordion__summary">
                     <strong
                       ><u
@@ -338,7 +336,7 @@
             <!-- </p> -->
 
             <iframe
-              class="video"
+              class="video__content"
               loading="lazy"
               src="https://www.youtube.com/embed/OTe6adS5cf4?si=Wx8ojXulG3uYfVZB&amp;controls=0"
               title="YouTube video player"
@@ -347,11 +345,9 @@
               allowfullscreen
             ></iframe>
           </section>
-          <section class="section">
-            <h2 class="section__title section__title--fourth">
-              Continuing Evolution
-            </h2>
-            <p class="text two-columns">
+          <section class="content__section">
+            <h2 class="section__title title--fourth">Continuing Evolution</h2>
+            <p class="section__text text--two-columns">
               Mario has come a long way since he entered our consciousness
               through his general appearance hasn&#8217;t changed much in the
               last two decades. Mario has branched out into sports games, RPGs,
@@ -373,7 +369,7 @@
           >elen-oz</a
         >
         &mdash; &copy; 2023 &mdash;
-        <span class="site-footer__desktop-text">
+        <span class="footer__text">
           <a
             href="https://github.com/elen-oz/hi-project_mario"
             target="_blank"
@@ -381,7 +377,7 @@
             >this project on GitHub</a
           >
           &mdash;
-          <div class="footer-text">
+          <div class="footer__info">
             Information about the game is taken from open sources.
           </div></span
         >
