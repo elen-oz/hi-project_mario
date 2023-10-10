@@ -10,51 +10,41 @@
 
   <body>
     <div class="wrapper">
-      <header class="site-header">
-        <div class="site-nav__mobile-menu">
-          <input type="checkbox" class="mobile-menu__toggle" id="toggle" />
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="./index.html">Home</a>
+      <header class="header">
+        <div class="header__mobile-nav">
+          <input type="checkbox" class="mobile-nav__toggle" id="toggle" />
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="./index.html">Home</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="./pages/gameplay/index.html"
-              >Gameplay</a
-            >
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="./pages/gameplay/index.html">Gameplay</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="./pages/history/index.html"
-              >History</a
-            >
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="./pages/history/index.html">History</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="./pages/contact/index.html"
-              >Contact</a
-            >
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="./pages/contact/index.html">Contact</a>
           </div>
 
-          <label class="mobile-menu__floating-button" for="toggle">Menu</label>
+          <label class="mobile-nav__floating-button" for="toggle">Menu</label>
         </div>
 
-        <nav class="site-nav__desktop-menu">
-          <ul class="site-nav__menu">
-            <li><a class="site-nav__link" href="./index.html">Home</a></li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+        <nav class="header__desktop-nav">
+          <ul class="desktop-nav__list">
+            <li><a class="nav__link" href="./index.html">Home</a></li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="./pages/gameplay/index.html"
+              <a class="nav__link" href="./pages/gameplay/index.html"
                 >Gameplay</a
               >
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="./pages/history/index.html"
-                >History</a
-              >
+              <a class="nav__link" href="./pages/history/index.html">History</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="./pages/contact/index.html"
-                >Contact</a
-              >
+              <a class="nav__link" href="./pages/contact/index.html">Contact</a>
             </li>
           </ul>
         </nav>
@@ -62,7 +52,7 @@
 
       <main class="main">
         <section class="hero-section cursor-mario">
-          <h1 class="main-title text--multi-color">
+          <h1 class="hero__title title--multi-color">
             <span>s</span><span>u</span><span>p</span><span>e</span
             ><span>r</span><span>&nbsp;</span><span>m</span><span>a</span
             ><span>r</span><span>i</span><span>o</span>
@@ -74,14 +64,14 @@
             rel="nofollow"
             title="*The game is located on a third party site"
           >
-            <div class="site-button">play game*</div>
-            <p class="site__button-text-under">
+            <div class="button">play game*</div>
+            <p class="hero__button-text">
               *The game is located on a third party site
             </p>
           </a>
 
           <a
-            class="p-egg-link"
+            class="hero__egg-link"
             href="https://elen-oz.github.io/hi-project_fan-page/"
             target="_blank"
             rel="nofollow"
@@ -90,18 +80,18 @@
             <img
               src="./img/gifs/running-mario.gif"
               alt="running mario"
-              class="running-mario"
+              class="hero__egg-img"
           /></a>
         </section>
 
-        <div class="container">
-          <section class="section">
-            <h2 class="section__title section__title--first">History</h2>
-            <p class="text two-columns">
+        <div class="content">
+          <section class="content__section">
+            <h2 class="section__title title--first">History</h2>
+            <p class="section__text text--two-columns">
               <img
                 src="./img/gifs/giphy8.gif"
                 alt=""
-                class="image float-right"
+                class="section__img img--float-right"
                 style="margin-top: 10px"
               />
               Few video games can claim the distinction of being in the general
@@ -127,9 +117,9 @@
             </p>
           </section>
 
-          <section class="section">
-            <h2 class="section__title section__title--second">Gameplay</h2>
-            <p class="text two-columns">
+          <section class="content__section">
+            <h2 class="section__title title--second">Gameplay</h2>
+            <p class="section__text text--two-columns">
               When playing, the player is assuming the role of Mario and has to
               go through the Mushroom Kingdom. The player has to survive the
               evil forces of the game&#8217;s villain, Bowser, and rescue
@@ -145,7 +135,7 @@
               <img
                 src="./img/gifs/giphy5.gif"
                 alt=""
-                class="image float-left"
+                class="section__img img--float-left"
               />
               Eating a mushroom transforms regular Marion into Super Mario,
               which means he grows double in size and gets the ability to break
@@ -170,7 +160,7 @@
           >elen-oz</a
         >
         &mdash; &copy; 2023 &mdash;
-        <span class="site-footer__desktop-text">
+        <span class="footer__text">
           <a
             href="https://github.com/elen-oz/hi-project_mario"
             target="_blank"
@@ -178,7 +168,7 @@
             >this project on GitHub</a
           >
           &mdash;
-          <div class="footer-text">
+          <div class="footer__info">
             Information about the game is taken from open sources.
           </div>
         </span>
