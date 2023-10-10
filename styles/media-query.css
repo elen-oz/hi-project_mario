@@ -1,7 +1,6 @@
 @media (min-width: 375px) {
   .content {
     max-width: 95%;
-    padding: 0 2%;
   }
 }
 
@@ -17,10 +16,7 @@
     background-size: cover;
     background-attachment: fixed;
   }
-  .content {
-    max-width: 95%;
-    padding: 0 2%;
-  }
+
   .header {
     z-index: 10;
     width: 100%;
@@ -113,6 +109,9 @@
     background-position: bottom;
     background-size: cover;
     background-attachment: fixed;
+  }
+  .content {
+    max-width: 900px;
   }
   .hero-section {
     height: 100vh;
