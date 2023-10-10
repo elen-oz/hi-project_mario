@@ -187,3 +187,9 @@
     font-size: 1rem;
   }
 }
+
+@media (min-width: 100rem) {
+  .hero__egg-link .hero__egg-img {
+    display: none;
+  }
+}
