@@ -188,7 +188,7 @@
   }
 }
 
-@media (min-width: 100rem) {
+@media (min-height: 53rem), (min-width: 100rem) {
   body {
     background: linear-gradient(
         0deg,
