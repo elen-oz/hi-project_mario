@@ -33,14 +33,14 @@
   overflow: hidden;
 }
 
-.section {
+.content__section {
   margin-bottom: 1rem;
 }
-.section--bigger-space {
+.content__section--bigger-space {
   margin: 2rem 0 3rem;
 }
 
-.container {
+.content {
   margin: 0 auto;
   max-width: 1000px;
   padding: 0 2%;
