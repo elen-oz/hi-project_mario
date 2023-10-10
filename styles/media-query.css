@@ -10,25 +10,12 @@
     background-size: cover;
     background-attachment: fixed;
   }
-
   .container {
     max-width: 95%;
   }
 }
 
 @media (min-width: 25rem) {
-  /* body {
-    background: linear-gradient(
-        0deg,
-        rgba(227, 227, 227, 0.8),
-        rgba(227, 227, 227, 0.3)
-      ),
-      url('../img/bg12.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-  } */
-
   .header {
     z-index: 10;
     width: 100%;
@@ -42,7 +29,6 @@
   .header__desktop-nav {
     display: inline;
   }
-
   .desktop-nav__list {
     font-size: 1.1rem;
     flex-direction: row;
@@ -134,12 +120,10 @@
   .main__title {
     font-size: 4rem;
   }
-
   @keyframes runningMario {
     from {
       transform: translateX(-1000%);
     }
-
     to {
       transform: translateX(1000%);
     }
@@ -206,6 +190,12 @@
 
 @media (min-width: 100rem) {
   body {
+    background: linear-gradient(
+        0deg,
+        rgba(227, 227, 227, 0.8),
+        rgba(227, 227, 227, 0.3)
+      ),
+      url('../img/bg12.jpeg');
     background-color: var(--primary);
     background-size: contain;
   }
