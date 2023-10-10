@@ -10,49 +10,49 @@
 
   <body>
     <div class="wrapper">
-      <header class="site-header">
-        <div class="site-nav__mobile-menu">
-          <input type="checkbox" class="mobile-menu__toggle" id="toggle" />
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../../index.html">Home</a>
+      <header class="header">
+        <div class="header__mobile-nav">
+          <input type="checkbox" class="mobile-nav__toggle" id="toggle" />
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../../index.html">Home</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../gameplay/index.html">Gameplay</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../history/index.html">History</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../history/index.html">History</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../contact/index.html">Contact</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../contact/index.html">Contact</a>
           </div>
 
-          <label class="mobile-menu__floating-button" for="toggle">Menu</label>
+          <label class="mobile-nav__floating-button" for="toggle">Menu</label>
         </div>
 
-        <nav class="site-nav__desktop-menu">
-          <ul class="site-nav__menu">
-            <li><a class="site-nav__link" href="../../index.html">Home</a></li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+        <nav class="header__desktop-nav">
+          <ul class="desktop-nav__list">
             <li>
-              <a class="site-nav__link" href="../gameplay/index.html"
-                >Gameplay</a
-              >
+              <a class="nav__link" href="../../index.html">Home</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../history/index.html">History</a>
+              <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../contact/index.html">Contact</a>
+              <a class="nav__link" href="../history/index.html">History</a>
+            </li>
+            <li class="desktop-nav__separator">&mdash;</li>
+            <li>
+              <a class="nav__link" href="../contact/index.html">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
 
       <main class="main">
-        <section class="section">
-          <h1 class="main-title text--multi-color cursor-mario">
+        <section class="content__section">
+          <h1 class="hero__title title--multi-color cursor-mario">
             <span>g</span><span>a</span><span>m</span><span>e</span
             ><span>p</span><span>l</span><span>a</span><span>y</span>
           </h1>
@@ -68,50 +68,50 @@
                 required
               />
 
-              <fieldset class="radio-input">
-                <legend class="radio-input__label">You like the most...</legend>
+              <fieldset class="contact__radio-group">
+                <legend class="radio-group__label">You like the most...</legend>
 
-                <div class="container__input">
+                <div class="radio-group__item">
                   <input
                     type="radio"
                     id="tomato"
                     name="color"
                     value="tomato"
-                    class="radio__dot radio__dot--tomato"
+                    class="radio-item__dot radio-item__dot--tomato"
                     checked
                   />
                   <label for="tomato">Tomato</label>
                 </div>
 
-                <div class="container__input">
+                <div class="radio-group__item">
                   <input
                     type="radio"
                     id="coral"
                     name="color"
                     value="blue"
-                    class="radio__dot radio__dot--coral"
+                    class="radio-item__dot radio-item__dot--coral"
                   />
                   <label for="coral">Coral</label>
                 </div>
 
-                <div class="container__input">
+                <div class="radio-group__item">
                   <input
                     type="radio"
                     id="salmon"
                     name="color"
                     value="salmon"
-                    class="radio__dot radio__dot--salmon"
+                    class="radio-item__dot radio-item__dot--salmon"
                   />
                   <label for="salmon">Salmon</label>
                 </div>
 
-                <div class="container__input">
+                <div class="radio-group__item">
                   <input
                     type="radio"
                     id="none-color"
                     name="color"
                     value="none-color"
-                    class="radio__dot radio__dot--black"
+                    class="radio-item__dot radio-item__dot--black"
                   />
                   <label for="none-color" class="contact__radio--none-color"
                     >not a color-lover</label
@@ -138,7 +138,7 @@
                 rows="2"
               ></textarea>
 
-              <button type="submit" class="site-button contact__button">
+              <button type="submit" class="button contact__submit-button">
                 Submit
               </button>
               <p style="margin: 0; padding-top: 0.5rem; font-style: italic">
@@ -155,7 +155,7 @@
           >elen-oz</a
         >
         &mdash; &copy; 2023 &mdash;
-        <span class="site-footer__desktop-text">
+        <span class="footer__text">
           <a
             href="https://github.com/elen-oz/hi-project_mario"
             target="_blank"
@@ -163,7 +163,7 @@
             >this project on GitHub</a
           >
           &mdash;
-          <div class="footer-text">
+          <div class="footer__info">
             Information about the game is taken from open sources.
           </div>
         </span>
