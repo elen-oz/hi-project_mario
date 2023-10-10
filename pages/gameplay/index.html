@@ -10,59 +10,61 @@
 
   <body>
     <div class="wrapper">
-      <header class="site-header">
-        <div class="site-nav__mobile-menu">
-          <input type="checkbox" class="mobile-menu__toggle" id="toggle" />
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../../index.html">Home</a>
+      <header class="header">
+        <div class="header__mobile-nav">
+          <input type="checkbox" class="mobile-nav__toggle" id="toggle" />
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../../index.html">Home</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../gameplay/index.html">Gameplay</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../history/index.html">History</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../history/index.html">History</a>
           </div>
-          <div class="mobile-menu__item">
-            <a class="site-nav__link" href="../contact/index.html">Contact</a>
+          <div class="mobile-nav__item">
+            <a class="nav__link" href="../contact/index.html">Contact</a>
           </div>
 
-          <label class="mobile-menu__floating-button" for="toggle">Menu</label>
+          <label class="mobile-nav__floating-button" for="toggle">Menu</label>
         </div>
 
-        <nav class="site-nav__desktop-menu">
-          <ul class="site-nav__menu">
-            <li><a class="site-nav__link" href="../../index.html">Home</a></li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+        <nav class="header__desktop-nav">
+          <ul class="desktop-nav__list">
             <li>
-              <a class="site-nav__link" href="../gameplay/index.html">Gameplay</a>
+              <a class="nav__link" href="../../index.html">Home</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../history/index.html">History</a>
+              <a class="nav__link" href="../gameplay/index.html">Gameplay</a>
             </li>
-            <li class="site-header__desktop-dash">&mdash;</li>
+            <li class="desktop-nav__separator">&mdash;</li>
             <li>
-              <a class="site-nav__link" href="../contact/index.html">Contact</a>
+              <a class="nav__link" href="../history/index.html">History</a>
+            </li>
+            <li class="desktop-nav__separator">&mdash;</li>
+            <li>
+              <a class="nav__link" href="../contact/index.html">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
 
       <main class="main">
-        <div class="container">
-          <section class="section">
-            <h1 class="main-title text--multi-color cursor-mario">
+        <div class="content">
+          <section class="content__section">
+            <h1 class="hero__title title--multi-color cursor-mario">
               <span>g</span><span>a</span><span>m</span><span>e</span
               ><span>p</span><span>l</span><span>a</span><span>y</span>
             </h1>
             <div>
-              <video class="video" controls muted autoplay>
+              <video class="video__content" controls muted autoplay>
                 <source src="../../video/video-mario.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
 
-            <p class="text two-columns">
+            <p class="section__text text--two-columns">
               When playing, the player is assuming the role of Mario and has to
               go through the Mushroom Kingdom. The player has to survive the
               evil forces of the game&#8217;s villain, Bowser, and rescue
@@ -72,7 +74,7 @@
               <img
                 src="../../img/gifs/giphy9.webp"
                 alt=""
-                class="image float-left"
+                class="section__img img--float-left"
               />
               There are <u>coins</u> scattered throughout the game which need to
               be collected. There are also special
@@ -84,7 +86,7 @@
               <img
                 src="../../img/gifs/giphy7.gif"
                 alt=""
-                class="image float-right"
+                class="section__img img--float-right"
                 style="margin-top: 10px"
               />
               <u>Eating a mushroom</u>
@@ -112,9 +114,9 @@
             </p>
           </section>
 
-          <section class="section">
-            <h2 class="section__title section__title--second">Star Mario</h2>
-            <p class="text two-columns">
+          <section class="content__section">
+            <h2 class="section__title title--second">Star Mario</h2>
+            <p class="section__text text--two-columns">
               In the Star Mario form, there&#8217;s almost nothing that can harm
               him and he can also kill enemies with just one touch. This
               superpower doesn&#8217;t last very long so use it quickly. Players
@@ -124,9 +126,9 @@
             </p>
           </section>
 
-          <section class="section">
-            <h2 class="section__title section__title--third">The Battle</h2>
-            <p class="text two-columns">
+          <section class="content__section">
+            <h2 class="section__title title--third">The Battle</h2>
+            <p class="section__text text--two-columns">
               Jumping on enemies is often the only way to defeat and enemies
               react differently. <u>Koopas</u> are turtle-like creatures and
               they will retract in their shells. <u>Goombas</u> will flatten and
@@ -140,7 +142,7 @@
               <img
                 src="../../img/gifs/giphy4.gif"
                 alt=""
-                class="image float-right"
+                class="section__img img--float-right"
               />
               <em>
                 Remember to look for shortcuts as doing so can significantly
@@ -158,7 +160,7 @@
           >elen-oz</a
         >
         &mdash; &copy; 2023 &mdash;
-        <span class="site-footer__desktop-text">
+        <span class="footer__text">
           <a
             href="https://github.com/elen-oz/hi-project_mario"
             target="_blank"
@@ -166,7 +168,7 @@
             >this project on GitHub</a
           >
           &mdash;
-          <div class="footer-text">
+          <div class="footer__info">
             Information about the game is taken from open sources.
           </div>
         </span>
