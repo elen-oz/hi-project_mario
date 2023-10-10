@@ -65,10 +65,6 @@
 }
 
 @media (min-width: 38rem) {
-  .text--two-columns {
-    column-count: 2;
-    column-gap: 30px;
-  }
   .header {
     border-bottom: var(--border-mid);
   }
@@ -81,15 +77,26 @@
   .hero-section__button-play {
     border: var(--border-mid);
   }
-  .footer {
-    border-top: var(--border-mid);
+  .text--two-columns {
+    column-count: 2;
+    column-gap: 30px;
   }
   .message__wrapper {
     max-width: 70%;
   }
+  .footer {
+    border-top: var(--border-mid);
+  }
 }
 
 @media (min-width: 48rem) {
+  body {
+    background: url('../img/bg11.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   .header {
     border-bottom: var(--border-big);
   }
@@ -102,20 +109,8 @@
   .footer {
     border-top: var(--border-big);
   }
-  body {
-    background: url('../img/bg11.jpeg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    background-attachment: fixed;
-  }
   .container {
     max-width: 900px;
-  }
-  .hero-section {
-    height: 100vh;
-    margin-top: -7rem;
-    margin-bottom: 2rem;
   }
   .main__title {
     font-size: 4rem;
