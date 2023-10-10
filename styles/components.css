@@ -70,7 +70,7 @@
   color: var(--yellow);
 }
 
-.hero__title {
+.main__title {
   font-size: 2.5rem;
   text-shadow: var(--text-shadow);
 }
@@ -129,7 +129,7 @@
   box-shadow: var(--item-shadow);
 }
 
-a .button {
+.button {
   color: var(--black);
 }
 
@@ -150,7 +150,7 @@ a .button {
   background-color: var(--primary-light);
 }
 
-a.hero__egg-link .hero__egg-img {
+.hero__egg-link .hero__egg-img {
   display: none;
 }
 
@@ -192,14 +192,14 @@ a.hero__egg-link .hero__egg-img {
   box-shadow: var(--item-shadow);
 }
 
-.history-ol {
+.history-list {
   max-width: 100%;
   padding: 0 2rem;
   font-size: 1rem;
   box-shadow: var(--item-shadow);
 }
 
-p.text--two-columns {
+.text--two-columns {
   column-count: 1;
 }
 
@@ -287,7 +287,7 @@ p.text--two-columns {
 }
 
 .contact__input:hover {
-  border: 2px solid #797878;
+  border: 2px solid var(--green);
 }
 
 .contact__input:focus {
@@ -334,7 +334,7 @@ legend {
   align-items: center;
   justify-content: center;
 }
-/* --------- 1 -------- */
+
 .radio-item__dot--tomato ~ label {
   color: tomato;
 }
@@ -353,7 +353,7 @@ legend {
 .radio-item__dot--tomato:checked::after {
   visibility: visible;
 }
-/* --------- 2 -------- */
+
 .radio-item__dot--coral ~ label {
   color: coral;
 }
@@ -373,7 +373,7 @@ legend {
 .radio-item__dot--coral:checked::after {
   visibility: visible;
 }
-/* --------- 3 -------- */
+
 .radio-item__dot--salmon ~ label {
   color: salmon;
 }
@@ -394,7 +394,6 @@ legend {
   visibility: visible;
 }
 
-/* --------- 4 -------- */
 .radio-item__dot--black:checked {
   background-color: var(--white);
   border: 2px solid var(--black);

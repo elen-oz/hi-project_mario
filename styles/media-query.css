@@ -45,7 +45,7 @@
   .desktop-nav__separator {
     display: inline;
   }
-  .hero__title {
+  .main__title {
     font-size: 3rem;
   }
   .button-play {
@@ -72,11 +72,11 @@
 }
 
 @media (min-width: 610px) {
-  p.text--two-columns {
+  .text--two-columns {
     column-count: 2;
     column-gap: 30px;
   }
-  .hero__title {
+  .main__title {
     font-size: 5rem;
   }
   .header {
@@ -131,7 +131,7 @@
       transform: translateX(1000%);
     }
   }
-  a.hero__egg-link .hero__egg-img {
+  .hero__egg-link .hero__egg-img {
     display: block;
     width: 9rem;
     z-index: 10;
