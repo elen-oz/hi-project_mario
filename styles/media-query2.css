@@ -69,7 +69,7 @@
     padding-left: 2rem;
     padding-right: 1rem;
   }
-  .contact__wrapper {
+  .message__wrapper {
     padding-inline: auto;
     max-width: 80%;
   }
@@ -95,7 +95,7 @@
   .footer {
     border-top: var(--border-mid);
   }
-  .contact__wrapper {
+  .message__wrapper {
     max-width: 70%;
   }
   .submittet__img {
@@ -187,7 +187,7 @@
   .footer__text {
     display: inline;
   }
-  .contact__wrapper {
+  .message__wrapper {
     max-width: 30rem;
 
     background-color: var(--bg-text);
