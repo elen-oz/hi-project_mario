@@ -1,5 +1,5 @@
 @media (min-width: 375px) {
-  .content {
+  .container {
     max-width: 95%;
   }
 }
@@ -110,7 +110,7 @@
     background-size: cover;
     background-attachment: fixed;
   }
-  .content {
+  .container {
     max-width: 900px;
   }
   .hero-section {
