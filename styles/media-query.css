@@ -198,6 +198,10 @@
       url('../img/bg12.jpeg');
     background-color: var(--primary);
     background-size: contain;
+    background-attachment: fixed;
+  }
+  .hero__button-text {
+    background-color: var(--primary-light);
   }
   .hero__egg-link .hero__egg-img {
     display: none;
