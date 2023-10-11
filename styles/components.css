@@ -138,7 +138,7 @@
 }
 
 .button:active {
-  background-color: var(--blue);
+  background-color: var(--green);
   box-shadow: var(--item-shadow);
 
   transform: translateY(4px);
