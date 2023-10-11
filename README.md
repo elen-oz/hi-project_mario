@@ -4,29 +4,23 @@
 
 #### [See Live HERE](https://serene-bombolone-46fa8a.netlify.app/)
 
----
-
 _In case the first link doesn't work:_
 _[GitHub-Pages link](https://elen-oz.github.io/hi-project_mario/)_
 
 ---
 
-Hi!
-This project was made to practice HTML and CSS in different ways. I decided to create a website dedicated to the iconic game - Super Mario.
-
 #### About the Project
 
-This website is all about Super Mario. You can explore the history of Mario, learn about the gameplay, and even listen to some classic Mario tunes.
-_Plus, there's a hidden surprise for those who explore a bit_ :)
+The primary objective of this project was to create a website inspired by the 90s, dedicated to a favorite element from that era. I chose the legendary game - Super Mario, which was a significant part of my childhood and the childhood of millions of others around the world.
 
-#### Features
+The website is developed using advanced HTML and CSS techniques, resulting in a structured layout and responsive design optimized for multiple device types, including mobile phones, tablets, and desktop computers.
 
-- A cool 8-bit design inspired by the game.
+#### How to Use
 
-- Navigation to different sections like Home, Gameplay, and History.
+Simply clone the repository, and open the index.html file in your browser to explore the website.
 
-- A "Play Game" button for those who want to jump right in.
-
-- Fun animations and GIFs to make the experience lively.
-
-- Background music to set the mood.
+```
+git clone https://github.com/elen-oz/hi-project_mario.git
+cd hi-project_mario
+open index.html
+```
