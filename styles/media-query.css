@@ -179,7 +179,7 @@
     background-color: var(--bg-text);
     box-shadow: var(--item-shadow);
   }
-  .radio-item__label--none-color {
+  .contact__radio--none-color {
     font-size: 1rem;
   }
 }
